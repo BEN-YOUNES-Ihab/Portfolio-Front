@@ -18,7 +18,7 @@ import {
           py={4}
           align="center"
         >
-          <Text>© 2023 BEN YOUNES Ihab</Text>
+          <Text>© 2023 BEN YOUNES Iha</Text>
         </Container>
       </Box>
     );
