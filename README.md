@@ -2,13 +2,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Captures d'écran
 
-![cap1](/portfolio/public/capture1.png)
+![cap1](public/capture1.png)
 
-![cap2](/portfolio/public/capture2.png)
+![cap2](public/capture2.png)
 
-![cap3](/portfolio/public/capture3.png)
+![cap3](public/capture3.png)
 
-![cap4](/portfolio/public/capture4.png)
+![cap4](public/capture4.png)
 
 ## Available Scripts
 
