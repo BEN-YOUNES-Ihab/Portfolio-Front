@@ -49,18 +49,10 @@ export default function Chat() {
     setMessages(messages => [...messages, botResponse]);  
     changebotMessageSent(true); 
   };
-  // const handleSubmit = () => {
-  //   if (message !== "" && botMessageSent) {
-  //     changebotMessageSent(false); 
-  //     setMessages([...messages, { text: message, sender: "user" }]);
-  //     setMessage("");
-  //     setTimeout(handleBotResponse, 1000);
-  //   }        
-  // };
 
   const handleSubmit = async () => {
     // if (message !== "" && botMessageSent) {
-      if (message !== "" ) {
+      if (message !== ""  && botMessageSent) {
       changebotMessageSent(false);
       setMessages([...messages, { text: message, sender: "user" }]);
       setMessage("");
@@ -126,9 +118,9 @@ export default function Chat() {
                 color={msg.sender === "user" ? "black" : "white"}
                 __css={{
                   position: "relative",
-                  textAlign: msg.sender === "user" ? "left" : "right",
+                  textAlign: msg.sender === "user" ? "right" : "left",
                   minWidth: "45%",
-                  padding: "10px 15px",
+                  padding: "12px 15px",
                   float: msg.sender === "user" ? "right" : "left",
                   left: msg.sender === "user" ? "auto" : "10px",
                   right: msg.sender === "user" ? "10px" : "auto",
